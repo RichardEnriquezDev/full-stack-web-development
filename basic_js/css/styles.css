@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    color: yellow;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+p{
+    color: yellow;
+    font-size: 2em;
+}
+
+p span{
+    font-size: 2em;
+}

@@ -1,0 +1,45 @@
+<!--
+    Basic script structures
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started width JavaScript</title>
+    <link rel="shortcut icon" href="img/js.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+    <script src="jquery/jquery-1.6.3.min.js"></script>
+    <script>
+        $(function(){
+            $("body").hide().fadeIn(3000);
+        });
+    </script>
+
+    <!--
+        SCRIPT IN DE HEADER
+    -->
+    <script>
+        alert("Welcome!");
+    </script>
+    <!--
+        It wil be displayed before the webpage is shown.
+        The code execution halts, and the page cannot load until it is closed.
+
+        Note: if we place the script at the end of the code,
+        the page loads first, and then the script executes.
+    -->
+
+</head>
+<body>
+    <h1>Day one</h1>
+    <p>Starting the JavaScript course at <span>Píldoras Informáticas</span></p>
+    <img src="img/arbol.jpg" width="35%">
+</body>
+</html>
+<!--
+    Just as with CSS files, we can also create our JS files as external files
+    and link them to our HTML document.
+-->
